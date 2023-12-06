@@ -1,0 +1,9 @@
+{
+    "rules": {
+      "groups": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+  

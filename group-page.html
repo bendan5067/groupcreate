@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Page</title>
+    <link rel="stylesheet" href="group page.css">
+</head>
+<body>
+    <div class="group-container">
+        <!-- Cover photo area -->
+        <div class="cover-photo-container">
+            <img src="cover_photo_placeholder.png" alt="Cover Photo" class="cover-photo">
+        </div>
+
+        <!-- Main group content area -->
+        <div class="group-content">
+            <!-- Left content - Posts Section -->
+            <div class="left-content">
+                <!-- Post creation container -->
+                <div class="post-creation-container">
+                    <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+                    <div class="post-actions">
+                        <input type="file" id="addPhotoVideo" accept="image/*" style="display:none;" />
+                        <label for="addPhotoVideo" class="photo-video-btn">Photo/video</label>
+                        <button type="submit" class="post-btn">Post</button>
+                    </div>
+                </div>
+                <!-- Placeholder for posts list -->
+                <div id="postsList">
+                    <!-- Posts will be dynamically added here -->
+                </div>
+            </div>
+
+            <!-- Right content - Group Details Sidebar -->
+            <div class="right-content">
+                <div class="group-details">
+                    <h3 id="groupName">Group Name Placeholder</h3>
+                    <p id="groupPrivacy">Group Privacy Placeholder</p>
+                    <p><strong>Members:</strong> <span id="memberCount">1</span></p>
+                    <!-- Location section -->
+                    <div class="group-location">
+                        <h4>Location</h4>
+                        <p id="groupLocation">Location Placeholder</p>
+                    </div>
+                    <!-- Rules section -->
+                    <div class="group-rules">
+                        <h4>Rules</h4>
+                        <p id="groupRules">Rules Placeholder</p>
+                    </div>
+                    <!-- Industry section -->
+                    <div class="group-industry">
+                        <h4>Industry</h4>
+                        <p id="groupIndustry">Industry Placeholder</p>
+                    </div>
+                    <!-- Group Picture section -->
+                    <div class="group-picture" id="groupPictureContainer">
+                        <!-- Group picture will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="group-page-script.js"></script>
+</body>
+</html>

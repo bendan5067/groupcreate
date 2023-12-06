@@ -1,0 +1,222 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.group-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cover-photo-container {
+    position: relative;
+    width: 100%;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.group-info {
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.form-field {
+    margin-bottom: 20px;
+}
+
+/* Style for the group privacy radio button section */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between the radio options */
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label text */
+}
+
+/* Additional styles for radio buttons */
+.radio-group input[type="radio"]:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(71, 8, 100);
+}
+
+.radio-group input[type="radio"]:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(71, 8, 100);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(71, 8, 100);
+}
+.group-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.group-nav li {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.group-nav li.active {
+    background-color: rgb(83, 8, 95);
+    color: white;
+    border-radius: 4px;
+}
+
+.post-creation-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#postContent {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 80px;
+    resize: none;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.post-actions button {
+    background-color: #e7f3ff;
+    color: rgb(61, 7, 82);
+    border: 1px solid rgb(71, 8, 100);
+    padding: 6px 12px;
+    margin-right: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.post-actions button:hover
+.cover-photo-container {
+    position: relative;
+    width: 100%;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+/* Existing styles from before */
+
+.group-container {
+    width: 80%;
+    max-width: 1140px; /* Adjust as necessary */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cover-photo-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 300px; /* Adjust as necessary */
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.group-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1; /* Takes up the remaining space */
+    margin-right: 20px; /* Space between left and right content */
+}
+
+.right-content {
+    width: 300px; /* Fixed width */
+    background-color: #f6f7f8;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.group-details {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between elements */
+}
+
+.post-actions .photo-video-btn {
+    background-color: #e7f3ff;
+    color: rgb(61, 7, 82);
+    border: 1px solid rgb(71, 8, 100);
+    padding: 6px 12px;
+    margin-right: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Styles for the group name */
+#groupName {
+    font-size: 32px; /* Increase the font size of the group name */
+    color: #5e3a93; /* Purple color for the group name text */
+    font-weight: bold; /* Make the font weight bold */
+}
